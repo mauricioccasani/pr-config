@@ -47,6 +47,6 @@ spring:
         - id: ms-cliente
           uri: http://localhost:8080/clientes
           predicates:
-            - Path=/clientes/**       
+            - Path=/clientes/**      
   #application:
   #  name: registry-service          
