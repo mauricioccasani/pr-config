@@ -1,10 +1,13 @@
 server:
   port: 8999
 
+
 spring:
-  data:
-    mongodb:
-      uri: mongodb://localhost:27017/bootcamp
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    username: postgres
+    url: jdbc:postgresql://localhost:5432/ws-gestion
+    password: 123456      
 eureka:
   client:
     service-url:
