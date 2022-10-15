@@ -24,5 +24,9 @@ spring:
           uri: http://localhost:8991/clientes
           predicates:
             - Path=/clientes/**
+        - id: ms-pedido
+          uri: http://localhost:8992/pedidos
+          predicates:
+            - Path=/pedidos/**    
   #application:
   #  name: registry-service          
