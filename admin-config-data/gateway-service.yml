@@ -43,6 +43,10 @@ spring:
         - id: ms-producto
           uri: http://localhost:8999/productos
           predicates:
-            - Path=/productos/**   
+            - Path=/productos/**
+        - id: ms-cliente
+          uri: http://localhost:8080/clientes
+          predicates:
+            - Path=/clientes/**       
   #application:
   #  name: registry-service          
