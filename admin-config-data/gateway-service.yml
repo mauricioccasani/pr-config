@@ -29,7 +29,7 @@ spring:
           predicates:
             - Path=/pedidos/**
         - id: ms-pedido-cliente
-          uri: http://localhost:8992/detalles
+          uri: http://localhost:8993/detalles
           predicates:
             - Path=/detalles/**   
   #application:
